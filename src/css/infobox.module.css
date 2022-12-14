@@ -1,0 +1,9 @@
+.infobox {
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    height: 110px;
+    width: 250px;
+    margin: 20px;   
+    padding: 0 1rem;
+}

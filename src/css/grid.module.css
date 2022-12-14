@@ -1,0 +1,15 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(6, 175px);
+    grid-template-rows: repeat(4, 150px);
+    padding-left: 30px;
+    gap: 20px;
+}
+
+.end + .start {
+    grid-column-start: 1;
+}
+
+.start + .end {
+    grid-column-start: 1;
+}

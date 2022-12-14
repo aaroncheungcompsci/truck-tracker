@@ -1,0 +1,28 @@
+Things to do (order is from most -> least important)
+============================
+ - Implement the display of the oldest truck that is currently in offline
+	- need to figure out how to get the difference between current date and move in date
+	  to determine oldest truck and have live updates
+ - Implement the ability to add comments and set specific location for a station 
+ - Getting data for trucks from MES database and linking it to database
+	for application
+	- data is on a completely different server than the one I have
+	developed database on, don't know when this will be resolved. 
+	Dependent on Luis and Francois (unknown timeframe)
+ - Setting up application on webserver at Coolidge plant
+	- will require 2-3 hours of setup
+	- may need to adjust some backend logic 
+	- speak to Dan Grebenisan for assistance on this topic
+ - Optimize code in the backend for ease of debugging (not as important, but good to get to when possible)
+ - Implement unit tests for ease of testing new features in the future
+   (refer to this video as a guideline: https://www.youtube.com/watch?v=iYDEEdiLWKI)
+
+
+Features in "Backlog" (not important for getting application up and running)
+============================
+ - Ability to create bucket without having to manually mess with frontend logic
+ - Searching VIN number in offline buckets should return where the VIN is placed
+ - Accounting for VIN numbers over 1000
+ - Ability to extract data from database as a spreadsheet file
+
+

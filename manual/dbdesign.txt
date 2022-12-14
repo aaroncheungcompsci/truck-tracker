@@ -1,0 +1,35 @@
+// > many-to-one; < one-to-many; - one-to-one; <> many-to-many
+
+Table Stations {
+  stationID varchar(20) [pk]
+  num_of_allowed_trucks int
+  num_of_current_trucks int
+}
+
+
+Table Trucks {
+  VIN varchar [pk]
+  Days_In_Offline int
+  IsOffline boolean
+  CurrentStation varchar [ref: > Stations.stationID]
+}
+
+Table Truck_History {
+  HistoryId guid [pk]
+  Move_In datetime
+  Move_Out datetime
+  Total_Time bigint
+  Comments varchar
+  VIN varchar [ref: > Trucks.VIN]
+  stationID varchar [ref: > Stations.stationID]
+  PersonId varchar [ref: > Person.PersonId]
+}
+
+Table Person {
+  PersonId guid [pk]
+  Email varchar [not null, unique]
+  FName varchar
+  LName varchar
+}
+
+COPY AND PASTE THE CODE ABOVE INTO dbdiagram.io AFTER MAKING AN ACCOUNT

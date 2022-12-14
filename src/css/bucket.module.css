@@ -1,0 +1,50 @@
+.bucket {
+    display: flex;
+    height: 120px;
+    width: 130px;
+    border: 2px solid black;
+    margin: 1rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.assembly_bucket {
+    display: flex;
+    height: 80px;
+    width: 220px;
+    border: 2px solid black;
+    margin: -20px;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    height: 20px;
+    width: 130px;
+    display: inline-block;
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    text-align: center;
+}
+
+.redtitle {
+    height: 20px;
+    width: 130px;
+    display: inline-block;
+    background-color: red;
+    border: 2px solid black;
+    color: white;
+    text-align: center;
+}
+
+.greentitle {
+    height: 20px;
+    width: 130px;
+    display: inline-block;
+    background-color: green;
+    border: 2px solid black;
+    color: white;
+    text-align: center;
+}

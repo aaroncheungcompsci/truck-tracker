@@ -1,0 +1,32 @@
+.title {
+    padding-left: 45px;
+    width: 300px;
+    height: 50px;
+    position: relative;
+}
+
+.trucks {
+    position: relative;
+    padding-left: 20px;
+}
+
+.onlinecontent {
+    padding-top: 15px;
+}
+
+.offlinecontent {
+    padding-top: 25px
+}
+
+.search {
+    padding-left: 30px;
+}
+
+.error {
+    padding-left: 30px;
+    color: red;
+}
+
+.offlinebutton {
+    font-size: 20px;
+}

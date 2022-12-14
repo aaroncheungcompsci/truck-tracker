@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "trucktracker.api", "trucktracker.api\trucktracker.api.csproj", "{B2DB292B-387A-4D1A-85E6-EE2AF72E7D5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "trucktracker.core", "trucktracker.core\trucktracker.core.csproj", "{819C48ED-185F-4699-8696-4009C20DF60F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "trucktracker.data", "trucktracker.data\trucktracker.data.csproj", "{1F3D61C8-5905-4333-BDF3-FBDCBA2A3E06}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2DB292B-387A-4D1A-85E6-EE2AF72E7D5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2DB292B-387A-4D1A-85E6-EE2AF72E7D5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2DB292B-387A-4D1A-85E6-EE2AF72E7D5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2DB292B-387A-4D1A-85E6-EE2AF72E7D5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{819C48ED-185F-4699-8696-4009C20DF60F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{819C48ED-185F-4699-8696-4009C20DF60F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{819C48ED-185F-4699-8696-4009C20DF60F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{819C48ED-185F-4699-8696-4009C20DF60F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F3D61C8-5905-4333-BDF3-FBDCBA2A3E06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F3D61C8-5905-4333-BDF3-FBDCBA2A3E06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F3D61C8-5905-4333-BDF3-FBDCBA2A3E06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F3D61C8-5905-4333-BDF3-FBDCBA2A3E06}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,18 @@
+.title {
+    margin-left: 50px;
+}
+
+.trucktable {
+    background-color: lightgray;
+    top: 50px;
+    margin: auto;
+    border: 1px solid;
+}
+
+.columnheaders {
+    background-color: gray;
+}
+
+th, td {
+    border: 1px solid;
+}
